@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- <style>
+    #grad1 {
+      height: 200px;
+      background-color: red; 
+      background-image: linear-gradient(to bottom right, red, yellow);
+    }
+    </style> -->
+
+</head>
+<body>
+
+   <!-- <div id="grad1"></div> -->
+
+ <header>
+    <a href="#" class="logo">LOGO</a>
+       
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <!-- <video autoplay loop muted plays-inline>
+       <source src="background_video.mp4" width="100px" height="50px">
+    </video> -->
+
+    <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#features">features</a>
+         <a href="#about">about</a>
+         <a href="#usage">usage</a>
+         <a href="#review">reveiw</a>
+         <a href="#pricing">pricing</a>
+         <a href="#contact">contact</a>
+    </nav>
+ </header>
+
+
+ <script>
+
+   let menu = document.querySelector('#menu-bar');
+   let navbar = document.querySelector('.navbar');
+
+   menu.addEventListener('click',() => {
+       menu.classList.toggle('fa-times');
+       navbar.classList.toggle('nav-toggle');
+   });
+
+   window.onscroll = () => {
+      menu.classList.remove('fa-times');
+      navbar.classList.remove('nav-toggle');
+   }
+
+</script>
+
+
+ <section class="home" id="home">
+  
+    <div class="content">
+        <h3>app landing page</h3>
+        <p>Revolutionize Your AI and New Tech journey with us at [MAKEz.com] : The Ultimate Solution for a best accumulated informations."</p>
+        <a href="#" class="btn">get started</a>
+    </div>
+       
+    <div class="swiper-container image-slider">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide"><img src="bibekb.jpg" alt="image"></div>
+       <div class="swiper-slide"><img src="bibekbb.jpg" alt="image"></div>
+       <div class="swiper-slide"><img src="bibekbbb.jpg" alt="image"></div>
+       <div class="swiper-slide"><img src="bibekbbbb.jpg" alt="image"></div>
+       <div class="swiper-slide"><img src="bibekbbbbb.jpg" alt="image"></div>
+       <div class="swiper-slide"><img src="bibekbbbbbb.jpg" alt="image"></div>
+       
+    </div>
+   </div>
+ </section>
+
+<section class="features" id="features">
+
+   <h1 class="heading">app features</h1>
+
+   <div class="box-container">
+      <div class="box">
+         <i class="fas fa-magic"></i>
+         <h3>smooth design</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, sunt? A voluptatibus maxime voluptas modi nobis, impedit possimus aut saepe dolor dolorem molestias perferendis tempore illum qui ipsa sequi quaerat</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-shield-alt"></i>
+         <h3>privacy protect</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, sunt? A voluptatibus maxime voluptas modi nobis, impedit possimus aut saepe dolor dolorem molestias perferendis tempore illum qui ipsa sequi quaerat</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-globe"></i>
+         <h3>multiple language</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, sunt? A voluptatibus maxime voluptas modi nobis, impedit possimus aut saepe dolor dolorem molestias perferendis tempore illum qui ipsa sequi quaerat</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>location tracking</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, sunt? A voluptatibus maxime voluptas modi nobis, impedit possimus aut saepe dolor dolorem molestias perferendis tempore illum qui ipsa sequi quaerat</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-cogs"></i>
+         <h3>powerfull settings</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, sunt? A voluptatibus maxime voluptas modi nobis, impedit possimus aut saepe dolor dolorem molestias perferendis tempore illum qui ipsa sequi quaerat</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-headset"></i>
+         <h3>24 x 7 service</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, sunt? A voluptatibus maxime voluptas modi nobis, impedit possimus aut saepe dolor dolorem molestias perferendis tempore illum qui ipsa sequi quaerat</p>
+      </div>
+
+   </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+   <h1 class="heading">about the app</h1>
+   
+   <div class="row">
+      
+      <div class="image">
+         <img src="webimg16.jpg" alt="" height="230px" width="500 px">
+      </div>
+
+   <div class="content">
+      <h3>Take a look Around our App</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim officiis quam laborum ut itaque consequuntur cumque saepe quidem aut vitae natus deleniti dolores, quis sed quas unde facilis error possimus?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore est nemo beatae quis inventore. Quia rem tempora alias quis consectetur?</p>
+         <div class="buttons">
+            <a href="#" ><img src="appstore.png" alt="" height="45px" width="100px"></a>
+            <a href="#" ><img src="appstore222.png" alt="" height="42px" width="100px"></a>
+         </div>
+      </div>
+
+</div>
+
+</section>
+
+<section class="usage" id="usage">
+
+   <h1 class="heading">how it works?</h1>
+
+   <div class="row">
+     
+      <div class="box-container">
+         <div class="box">
+            <i class="fas fa-sort-amount-down"></i>
+            <h3>minimum progress</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa rerum dolorum reprehenderit. Repellat error vel laborum in, quo architecto, consectetur suscipit dolore adipisci veritatis repudiandae nobis optio blanditiis aperiam quibusdam.</p>
+         </div>
+        
+         <div class="box">
+            <i class="fas fa-user-clock"></i>
+            <h3>active time</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa rerum dolorum reprehenderit. Repellat error vel laborum in, quo architecto, consectetur suscipit dolore adipisci veritatis repudiandae nobis optio blanditiis aperiam quibusdam.</p>
+         </div>
+      </div>
+
+      <img class="divider" src="webimg12.png">
+
+      <div class="box-container">
+         <div class="box">
+            <i class="fas fa-sort-amount-up"></i>
+            <h3>maximum progress</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa rerum dolorum reprehenderit. Repellat error vel laborum in, quo architecto, consectetur suscipit dolore adipisci veritatis repudiandae nobis optio blanditiis aperiam quibusdam.</p>
+         </div>
+        
+         <div class="box">
+            <i class="fas fa-fire"></i>
+            <h3>calories burned</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa rerum dolorum reprehenderit. Repellat error vel laborum in, quo architecto, consectetur suscipit dolore adipisci veritatis repudiandae nobis optio blanditiis aperiam quibusdam.</p>
+         </div>
+      </div>
+
+   </div>
+
+   
+
+</section>
+
+
+<section class="review" id="review">
+
+   <h1 class="heading">customers review</h1>
+
+   <div class="box-container">
+      <div class="box">
+         <img src="webimg13.jpg" alt="">
+         <h3>priyanshi ahuja</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum temporibus laboriosam voluptates recusandae distinctio quo, culpa assumenda vel illum repellendus sapiente dignissimos perferendis possimus quasi sint quisquam necessitatibus dolorum.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="box">
+         <img src="webimg14.jpg" alt="">
+         <h3>john deo</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum temporibus laboriosam voluptates recusandae distinctio quo, culpa assumenda vel illum repellendus sapiente dignissimos perferendis possimus quasi sint quisquam necessitatibus dolorum.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+         </div>
+      </div>
+
+      <div class="box">
+         <img src="webimg15.jpg" alt="">
+         <h3>Angelina Bose</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum temporibus laboriosam voluptates recusandae distinctio quo, culpa assumenda vel illum repellendus sapiente dignissimos perferendis possimus quasi sint quisquam necessitatibus dolorum.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+
+<section class="pricing" id="pricing">
+    
+   <h1 class="heading">our pricing plans</h1>
+
+   <div class="box-container">
+      <div class="box">
+         <div class="price"><span>$</span>10<span>/month</span></div>
+         <h3>basic</h3>
+         <ul>
+         <li>100 MB Disck Space</li>
+         <li>2 Subdomains</li>
+         <li>5 Email Accounts</li>
+         <li>Email supports</li>
+         </ul>
+      <a href="#" class="btn">select plan</a>
+      </div>
+
+      <div class="box">
+         <div class="price"><span>$</span>20<span>/month</span></div>
+         <h3>standard</h3>
+         <ul>
+         <li>100 MB Disck Space</li>
+         <li>2 Subdomains</li>
+         <li>5 Email Accounts</li>
+         <li>Email supports</li>
+         </ul>
+      <a href="#" class="btn">select plan</a>
+      </div>
+
+      <div class="box">
+         <div class="price"><span>$</span>50<span>/month</span></div>
+         <h3>premium</h3>
+         <ul>
+         <li>100 MB Disck Space</li>
+         <li>2 Subdomains</li>
+         <li>5 Email Accounts</li>
+         <li>Email supports</li>
+         </ul>
+      <a href="#" class="btn">select plan</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+   <h1 class="heading">get in touch</h1>
+
+   <form action="">
+
+      <div class="inputBox">
+           <input type="text" required>
+           <label>name</label>
+      </div>
+      <div class="inputBox">
+         <input type="email" required>
+         <label>email</label>
+      </div>
+      <div class="inputBox">
+         <input type="number" required>
+         <label>number</label>
+      </div>
+      <div class="inputBox">
+         <textarea required name="" id="" cols="30" rows="10"></textarea>
+         <label>message</label>
+      </div>
+      
+      <input type="submit" class="btn" value="send message">
+
+   </form>
+
+</section>
+
+
+<section class="footer">
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-github"></a>
+   </div>
+
+   <h1 class="credit"> created by <span>mr. bibek shah </span> all rights reserved!</h1>
+
+
+
+
+
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+
+var swiper = new Swiper(".image-slider", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+      },
+      loop:true,
+      autoplay: {
+         delay: 2000,
+         disableOnInteraction: false,
+      }
+    });
+
+    let menu = document.querySelector('#menu-bar');
+    let navbar = document.querySelector('.navbar');
+    
+    menu.addEventListner('click', () =>{
+       menu.classList.toggle('fa-times');
+       navbar.classList.toggle('nav-toggle');
+    });
+ 
+    window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+       navbar.classList.remove('nav-toggle');
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
